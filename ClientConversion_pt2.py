@@ -407,8 +407,7 @@ print ('Classification Report:', cr(y_test, y_pred))
     it will be considered 'macro avg' metric to evaluate the model accuracy.
     From this, it is noticed that the model has predicted correctly 61% of the 
     test set as a conversion and, from all converted clients, in the same set,
-    63% of them were labelled accordingly. The overall score of the model is 
-    83%
+    63% of them were labelled accordingly.
     '''
 
 auc_roc = ras(y_test, y_pred)
